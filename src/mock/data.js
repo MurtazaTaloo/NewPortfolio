@@ -17,7 +17,7 @@ export const heroData = {
 
 // ABOUT DATA
 export const aboutData = {
-  img: 'profile.jpg',
+  img: 'profile.png',
   paragraphOne: 'I am a Full Stack developer with a passion for e-Commerce. I have hands on experience with Ruby on Rails and MERN.',
   paragraphTwo: 'Please download the resume below to learn more about my skills and experience.',
   paragraphThree: '',
@@ -28,31 +28,22 @@ export const aboutData = {
 export const projectsData = [
   {
     id: nanoid(),
-    img: 'project.jpg',
-    title: '',
-    info: '',
+    img: 'project1.png',
+    title: 'Retail App',
+    info: 'Retail store for a Chinese Medicine business using MERN stack',
     info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    url: 'https://medicinepower.netlify.com/',
+    repo: 'https://github.com/MurtazaTaloo/Mern_Project_PART_A', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
-    img: 'project.jpg',
-    title: '',
-    info: '',
+    img: 'project2.png',
+    title: 'Marketplace App',
+    info: 'Two way marketplace app using Ruby on Rails',
     info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
-  },
-  {
-    id: nanoid(),
-    img: 'project.jpg',
-    title: '',
-    info: '',
-    info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
-  },
+    url: 'https://lit-bastion-54112.herokuapp.com/',
+    repo: 'https://github.com/MurtazaTaloo/rails_marketplace', // if no repo, the button will not show up
+  }
 ];
 
 // CONTACT DATA
